@@ -60,7 +60,7 @@ layout: default
                  {% elsif count == 1 %}
                    <li><a href="{{ '/' }}">{{ count }}</a></li>
                  {% else %}
-                   <li><a href="/pages/{{ count }}">{{ count }}</a></li>
+                   <li><a href="/paginate/{{ count }}">{{ count }}</a></li>
                  {% endif %}
              {% endfor %}
              {% if !paginator.next_page %}
