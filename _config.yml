@@ -1,6 +1,6 @@
 # Site settings
 title: Jiale's Blog
-icon:	/images/site.ico
+icon:	favicon.ico
 email: zhangjialecn@gmail.com
 #description: Front-end Dev
 #baseurl: "" # the subpath of your site, e.g. /blog/
@@ -29,8 +29,9 @@ redcarpet:
 #   ,"html_toc"
   ]
 
+gems: [jekyll-paginate]
 paginate: 5
-paginate_path: "pages/:num"
+paginate_path: "paginate/:num"
 
 imgrepo: "http://mr-jiale.github.io/images/img"
 images: "http://mr-jiale.github.io/images/"
